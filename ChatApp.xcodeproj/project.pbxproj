@@ -14,6 +14,8 @@
 		462548F41E5FA2F800077B34 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462548F31E5FA2F800077B34 /* ChatAppTests.swift */; };
 		462548FF1E5FA2F800077B34 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462548FE1E5FA2F800077B34 /* ChatAppUITests.swift */; };
 		4625490D1E5FA61900077B34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625490C1E5FA61900077B34 /* LoginViewController.swift */; };
+		462549101E5FB0D100077B34 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625490F1E5FB0D100077B34 /* ChatViewController.swift */; };
+		462549121E5FB60A00077B34 /* MessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549111E5FB60A00077B34 /* MessageViewCell.swift */; };
 		DD12D5D4A8CDDDF371960F7C /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02CD40DB7B39286F2C370F5 /* Pods_ChatApp.framework */; };
 		EE0EEEA51DB9A14C95492601 /* Pods_ChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6665CF44929D3F30161DAC7 /* Pods_ChatAppTests.framework */; };
 		FD7433BC7AF3D7C9D0C6668D /* Pods_ChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75402D173E0FAFEF429512B /* Pods_ChatAppUITests.framework */; };
@@ -52,6 +54,8 @@
 		462548FE1E5FA2F800077B34 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		462549001E5FA2F800077B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4625490C1E5FA61900077B34 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4625490F1E5FB0D100077B34 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		462549111E5FB60A00077B34 /* MessageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
 		5C53099604FD0BF923BD8017 /* Pods-ChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppUITests/Pods-ChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6FA2F85565539D4277E0537C /* Pods-ChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppTests/Pods-ChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D5304930E93691688A9E337 /* Pods-ChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppTests/Pods-ChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,10 +143,12 @@
 			children = (
 				462548DE1E5FA2F700077B34 /* AppDelegate.swift */,
 				4625490C1E5FA61900077B34 /* LoginViewController.swift */,
+				4625490F1E5FB0D100077B34 /* ChatViewController.swift */,
 				462548E21E5FA2F700077B34 /* Main.storyboard */,
 				462548E51E5FA2F700077B34 /* Assets.xcassets */,
 				462548E71E5FA2F700077B34 /* LaunchScreen.storyboard */,
 				462548EA1E5FA2F700077B34 /* Info.plist */,
+				462549111E5FB60A00077B34 /* MessageViewCell.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -446,7 +452,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462549121E5FB60A00077B34 /* MessageViewCell.swift in Sources */,
 				4625490D1E5FA61900077B34 /* LoginViewController.swift in Sources */,
+				462549101E5FB0D100077B34 /* ChatViewController.swift in Sources */,
 				462548DF1E5FA2F700077B34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
